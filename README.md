@@ -8,7 +8,7 @@ This tool has been developed to allow a protein sequence optimization that takes
 
 ## Workflow
 - Calculate codon usage: `python bin/dna2freq.py --cds data/organisms/ecoli/ncbi_dataset/data/GCF_000005845.2/cds_from_genomic.fna --organism ecoli`
-- Equalise sequences: `ython bin/equalise.py --sequences test/seq.fasta`
+- Equalise sequences: `python bin/equalise.py --sequences test/seq.fasta`
 
 ## Data
 **Note**: no exons/UTRs are present
@@ -17,4 +17,6 @@ This tool has been developed to allow a protein sequence optimization that takes
 
 
 ## TODO
-- Finish equalise.py
+- Finish equalise.py V
+- automate download of sequence data from ncbi
+- create webapp for plotting
